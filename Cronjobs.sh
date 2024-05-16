@@ -1,8 +1,11 @@
 # Cronjobs can ve used to automatically start scripts
 # The jobs are tied to a user and its permissions on the system
 
-# switch user with
+# switch user
 su - username
+
+# switch back to own user
+exit
 
 # get list of running cronjobs (each line represents a cronjob)
 crontab -l
