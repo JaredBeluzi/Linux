@@ -15,3 +15,8 @@ crontab -l
 
 # deleting cronjob / editing cronjob file in editor
 crontab -e
+
+# starting python code
+# you can start a .sh via cronjobs with this code
+source /home/user/.python_profile # set environment
+/usr/bin/python3 /path/to/your/script.py --config-filepath /path/to/your/config.yml
