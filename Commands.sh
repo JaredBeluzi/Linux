@@ -1,7 +1,20 @@
-ls			          # list all objects in current dir
-cd <dir>		      # change directory to dir
-cd ..			        # go one level up in dir hierarchy
-touch <file.xy>		# create file.xy
-rm <file.xy>		  # remove file
-apt-get remove <package> # uninstall package
-htop              # show task manager
+# list all objects in current dir
+ls
+
+# change directory to dir / go one level up in hierarchy
+cd <dir>
+cd ..
+
+# create / remove file.xy
+touch <file.xy>
+rm <file.xy>
+
+# install / uninstall package
+apt-get install <package>
+apt-get remove <package>
+
+# update all packages
+apt-get update && apt-get upgrade
+
+# show task manager
+htop
