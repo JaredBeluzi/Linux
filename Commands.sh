@@ -4,3 +4,4 @@ cd ..			        # go one level up in dir hierarchy
 touch <file.xy>		# create file.xy
 rm <file.xy>		  # remove file
 apt-get remove <package> # uninstall package
+htop              # show task manager
