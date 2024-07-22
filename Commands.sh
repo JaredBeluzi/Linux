@@ -14,7 +14,7 @@ apt-get install <package>
 apt-get remove <package>
 
 # update all packages
-apt-get update && apt-get upgrade
+sudo apt-get update && apt-get upgrade
 
 # show task manager
 htop
