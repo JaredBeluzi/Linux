@@ -18,3 +18,6 @@ sudo apt-get update && apt-get upgrade
 
 # show task manager
 htop
+
+# restart system
+sudo reboot
